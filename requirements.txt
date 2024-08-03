@@ -1,0 +1,7 @@
+streamlit
+InstructorEmbedding
+ctransformers
+transformers
+langchain
+langchain-community
+pyyaml
