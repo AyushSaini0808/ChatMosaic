@@ -1,0 +1,7 @@
+model_path: "models/llama-2-7b-chat.Q4_K_M.gguf"
+model_type : "llama"
+model_config : {"max_new_tokens":512,"temperature":0.1,"gpu_layers":0,"context_length":4096}
+
+embeddings_path : "BAAI/bge-large-en-v1.5"
+
+chat_history_path : "./chat_sessions/"
