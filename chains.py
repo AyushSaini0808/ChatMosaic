@@ -5,7 +5,6 @@ from langchain.prompts import PromptTemplate
 from langchain_community.llms import CTransformers
 from langchain_community.vectorstores import Chroma
 from prompt_template import memory_prompt_template
-import chromadb
 import yaml
 with open("config.yaml","r") as f:
     config=yaml.safe_load(f)
